@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    font-size: large;
+    margin: 25px;
+}
+h1 {
+    text-align: center;
+}
+.galeria {
+    display:inline-flex;
+    margin: 25px;
+}
+.descriçao {
+    margin: 10px auto;
+    font-size:large;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.kyle {
+   color: green; 
+}
+.stan {
+    color: rgb(37, 37, 165);
+}
+.ken {
+    color: rgb(238, 77, 19);
+}
+.cart {
+    color: rgb(190, 7, 7);
+}
+.craig {
+    color: rgb(37, 37, 156);
+}
+.tweek {
+    color: rgb(209, 209, 1);
+}
+.clyde {
+    color: rgb(128, 58, 31);
+}
+.token {
+    color: rgb(145, 6, 145);
+}
+.jimmy {
+    color: rgb(231, 174, 29);
+}
+.pip {
+    color: rgb(197, 19, 19);
+}
+.scott {
+    color: rgb(8, 167, 8);
+}
+.butters {
+    color: rgb(17, 177, 177);
+}
+a {
+    margin-top: 20px;
+}
+a:link {
+    color:green ;
+}
+a:visited {
+    color: magenta;
+}
+button {
+    margin-bottom: 20px;
+}

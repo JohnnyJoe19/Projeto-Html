@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style6.css">
+    <title>Formulário para Cadastro</title>
+</head>
+<body>
+    <div class="w3-container w3-margin w3-card-2 w3-light-blue w3-round-xlarge">
+        <div class="w3-container w3-margin-top w3-container w3-text-indigo w3-round-large">
+          <h2>Formulário de Cadastro</h2>
+        </div>
+        <form class="w3-container" action="/action_page.php">
+       <p>      
+        <label class="w3-text-indigo"><b>Nome</b></label>
+        <input class="w3-input w3-border w3-light-gray w3-hover-cyan w3-round-large" name="nome" type="text" required="required"></p>
+       <p>      
+        <label class="w3-text-indigo"><b>Senha</b></label>
+        <input class="w3-input w3-border w3-light-gray w3-hover-cyan w3-round-large" name="senha" type="password" required="required" maxlength="12"></p>
+        <p>      
+        <label class="w3-text-indigo"><b>Idade</b></label> 
+       <input class="w3-input w3-border w3-light-gray w3-hover-cyan w3-round-large" type="number" name="idade" required="required" min="16"></p>
+        <p>
+        <label class="w3-text-indigo"><b>Mês e Ano de Nascimento</b></label>
+        <input class="w3-input w3-border w3-light-gray w3-hover-cyan w3-round-large" type="date" name="nasci" min="1960-01-01" max="2007-12-01"></p> 
+        <p>
+        <label class="w3-text-indigo"><b>E-mail para contato</b></label>
+        <input class="w3-input w3-border w3-light-gray w3-hover-cyan w3-round-large" type="email" name="email" id="email" required="required"></p>
+        <p>
+        <label class="w3-text-indigo"><b>Deseja receber notícias pelo e-mail?</b></label></p> 
+        <p>
+        <input class="w3-radio" type="radio" name="noticias" value="sim" checked>
+        <label>Sim</label></p>   
+        <p>
+        <input class="w3-radio" type="radio" name="noticias" value="nao">
+        <label>Não</label></p>
+        <p>
+        <label class="w3-text-indigo"><b>Gênero</b></label>
+            <select name="genero" id="genero">
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outro">Outro</option>
+                <option value="nao dizer">Prefiro não dizer</option>
+            </select></p>
+        <p>
+        <button class="w3-btn w3-cyan w3-round-large">Enviar</button></p>
+        </form>
+    </div>
+    <div class="w3-center">
+        <div class="w3-bar">
+            <a href="#" class="w3-button">«</a>
+            <a href="menu.html" class="w3-button">1</a>
+            <a href="lista.html" class="w3-button">2</a>
+            <a href="tabela.html" class="w3-button">3</a>
+            <a href="galeria.html" class="w3-button">4</a>
+            <a href="form.html" class="w3-button w3-cyan">5</a>
+            <a href="trailer.html" class="w3-button">»</a>
+        </div>
+        </div>
+</body>
+</html>

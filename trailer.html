@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Trailer</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/style5.css">
+</head>
+<body>
+    <h1>South Park</h1>
+        <div class="video">
+        <video id="video" width="1000">
+            <source src="movie/South Park - Nova Tempora - Estreia 26 de Setembro.mp4" type="video/mp4">
+        </video>
+        </div>
+       <div class="botao"> 
+        <button onclick="playPause()">Tocar/Pausar</button> 
+        <button onclick="makeBig()">Grande</button>
+        <button onclick="makeSmall()">Pequeno</button>
+        <button onclick="makeNormal()">Normal</button>
+      </div> 
+      
+      <script> 
+      var myVideo = document.getElementById("video"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 1500; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 590; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 1200; 
+      } 
+      </script> 
+<div class="w3-center">
+    <div class="w3-bar">
+        <a href="menu.html" class="w3-button">«</a>
+        <a href="lista.html" class="w3-button">2</a>
+        <a href="tabela.html" class="w3-button">3</a>
+        <a href="galeria.html" class="w3-button">4</a>
+        <a href="form.html" class="w3-button">5</a>
+        <a href="trailer.html" class="w3-button w3-cyan">6</a>
+        <a href="#" class="w3-button ">»</a>
+    </div>
+    </div>
+</body>
+</html>

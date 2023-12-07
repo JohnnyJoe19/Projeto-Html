@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 25px;
+    font-size: large;
+    background-color: aliceblue;
+}
+a {
+    margin-top: 20px;
+}
+ul {
+    outline-style: outset;
+    outline-color: rgb(185, 234, 253);
+    background-color: white;
+}
+a:link {
+    color:green ;
+}
+a:hover {
+    color: cornflowerblue;
+}
+a:visited {
+    color: magenta;
+}
+.list {
+    color: rgb(17, 194, 150);
+}
+
